@@ -1,0 +1,5 @@
+train (t-pqacrljef7c37fes6hm35sxfi) {
+  utterance ("[g:WalkieTalkie] (this is so cool)[v:TextToCopy] (copy)[v:Confirmation:copy]")
+  plan (Y2BhkCvISaxML8ovzUvRK0/Myc5MLQGTev6lJQWlJQwquOTDwVQImMStyjk/Ly2zKDexJDM/j0EJl6qQ1IqSkHzn/IJKBmYGRgYmIMkApEEQAuCiAA==)
+  last-modified (1582071495738)
+}

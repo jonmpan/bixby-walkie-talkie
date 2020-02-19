@@ -1,0 +1,10 @@
+dialog (Result) {
+	match: Output(output){
+		from-output:WalkieTalkie(action)
+	}
+	// first part of example - covers [] and value and title. change value to title.
+	// template("#{title(output)}[, #{value(action.confirmation)}]")
+
+  // 2nd part - show how to you use a dialog macro and pass in multiple things
+	template("#{macro('OUTPUT', output, action.confirmation)}")
+}

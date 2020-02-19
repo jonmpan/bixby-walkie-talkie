@@ -1,0 +1,5 @@
+train (t-grfxwc2euin9j48hyqyqsgtrj) {
+  utterance ("[g:WalkieTalkie] (foo bar)[v:TextToCopy]")
+  plan (Y2BmkCvISaxML8ovzUvRK0/Myc5MLQGTev6lJQWlJQwquOTDwVQImGRQwqUqJLWiJCTfOb+gkoGJgRGIGYAkIwMIQPkA)
+  last-modified (1582071487152)
+}

@@ -1,0 +1,8 @@
+enum (Confirmation) {
+  description (__DESCRIPTION__)
+  symbol (roger)
+  symbol (copy)
+  symbol (over)
+  symbol (10-4)
+  features{transient}
+}

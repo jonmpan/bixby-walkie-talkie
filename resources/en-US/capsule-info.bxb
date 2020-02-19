@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Walkie Talkie)
+  developer-name (JohnWithoutTheH)
+  icon-asset (images/icon.png)
+  description ("Talk to me like a walkie talkie. This is not p2p but p2b (person to bixby😉). Over and out.")
+  dispatch-name (Walkie Talkie)
+  search-keywords{
+    keyword (Walkie Talkie)
+  }
+  // Create and set a path for your icon asset
+  // icon-asset (images/icons/example.png)
+}

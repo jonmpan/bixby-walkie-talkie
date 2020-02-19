@@ -1,0 +1,4 @@
+text (Output) {
+  description (__DESCRIPTION__)
+  features{transient}
+}

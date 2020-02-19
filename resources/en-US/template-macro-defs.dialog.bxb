@@ -1,0 +1,103 @@
+template-macro-def (OUTPUT) {
+	params{
+		param (output){
+			type (Output)
+			min (Required)
+		}
+		param (confirmation){
+			type (Confirmation)
+			min (Optional)
+		}
+	}
+	content{
+		// optional macro with confirmation example
+		// template ("#{value(output)}[, #{macro('CONFIRMATION', confirmation)}]")
+		if(exists(confirmation)){
+			// shows example of choose random, \", and title(macro)
+			// choose (Random){
+			// 	template ("\"#{value(output)}\"? #{title(macro('CONFIRMATION'))}")
+			// 	template ("You said \"#{value(output)}?\" #{title(macro('CONFIRMATION'))}")
+			// 	template ("I heard you say \"#{value(output)}\", #{macro('CONFIRMATION')}")
+			// }
+			
+			// refactor into this and end video
+			template ("#{macro('WITH_CONFIRMATION', output)}")
+		} else {
+			// show example of completely different dialog based on a condition. Notice how CONFIRMATION chooses the same one despite being here twice
+			// choose (Random){
+			// 	template ("You forgot to say \"#{macro('CONFIRMATION')}\", #{macro('CONFIRMATION')}.")
+			// 	template ("Did you forget to say \"#{macro('CONFIRMATION')}\"? #{title(macro('CONFIRMATION'))}")
+			// 	template ("Don't forget to say \"#{macro('CONFIRMATION')}\", #{title(macro('CONFIRMATION'))}")
+			// 	template ("Make sure to say \"#{macro('CONFIRMATION')}\", #{title(macro('CONFIRMATION'))}")
+			// }
+
+			// refactor into this and end video
+			template ("#{macro('NO_CONFIRMATION')}")
+		}
+	}
+}
+
+// show a way to reuse this fragment. show the speech key for troublesome words
+template-macro-def (CONFIRMATION) {
+	content{
+		choose (Random){
+			template ("roger that")
+			template ("copy that")
+			template ("over and out")
+			template ("wilco")
+			template ("10-4"){
+				speech ("ten four")
+			}
+		}
+	}
+}
+
+// optional refactoring
+template-macro-def (WITH_CONFIRMATION) {
+	params{
+		param (output){
+			type (Output)
+			min (Required)
+		}
+	}
+	content{
+		// template ("I got #{size(output)} #{macro('PLURAL', output)}. #{title(macro('CONFIRMATION'))}")
+		choose (Random){
+			template ("\"#{value(output)}\"? #{title(macro('CONFIRMATION'))}")
+			template ("You said \"#{value(output)}?\" #{title(macro('CONFIRMATION'))}")
+			template ("I heard you say \"#{value(output)}\", #{macro('CONFIRMATION')}")
+			template ("Make sure to say \"#{macro('CONFIRMATION')}\", #{title(macro('CONFIRMATION'))}")
+		}
+	}
+}
+
+// optional refactoring
+template-macro-def (NO_CONFIRMATION) {
+	content{
+		choose (Random){
+			template ("You forgot to say \"#{macro('CONFIRMATION')}\", #{macro('CONFIRMATION')}.")
+			template ("Did you forget to say \"#{macro('CONFIRMATION')}\"? #{title(macro('CONFIRMATION'))}")
+			template ("Don't forget to say \"#{macro('CONFIRMATION')}\", #{title(macro('CONFIRMATION'))}")
+		}
+	}
+}
+
+// unlikely to get to this
+// template-macro-def (PLURAL_CONFIRMATION) {
+// 	params{
+// 		param (confirmation){
+// 			type (Confirmation)
+// 			min (Required)
+// 		}
+// 	}
+// 	content{
+// 		switch (plural(confirmation)){
+// 			case(One) {
+// 				template (way)
+// 			}
+// 			default {
+// 				template (ways)
+// 			}
+// 		}
+// 	}
+// }

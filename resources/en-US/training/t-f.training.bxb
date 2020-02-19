@@ -1,0 +1,15 @@
+train (t-f4cdtuo41lm5zoqw9n6dwmrx9) {
+  utterance ("[g:WalkieTalkie] (test)[v:TextToCopy]")
+  plan (Y2BmkCvISaxML8ovzUvRK0/Myc5MLQGTev6lJQWlJQwquOTDwVQImGRQwqUqJLWiJCTfOb+gkoGJgRGIGYAkIwMIQPkA)
+  last-modified (1582071470241)
+}
+train (t-fgx4plgmcb3znkk2cbstrq24y) {
+  utterance ("[g:WalkieTalkie] (herp derp)[v:TextToCopy] (roger that)[v:Confirmation:roger]")
+  plan (Y2BhkCvISaxML8ovzUvRK0/Myc5MLQGTev6lJQWlJQwquOTDwVQImMStyjk/Ly2zKDexJDM/j0EJl6qQ1IqSkHzn/IJKBmYGRgYmIMkApEEQAuCiAA==)
+  last-modified (1582071473968)
+}
+train (t-fra6objg8bnhdfg5exdaqrtk1) {
+  utterance ("[g:WalkieTalkie] (foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar)[v:TextToCopy] (over and out)[v:Confirmation:over]")
+  plan (Y2BhkCvISaxML8ovzUvRK0/Myc5MLQGTev6lJQWlJQwquOTDwVQImMStyjk/Ly2zKDexJDM/j0EJl6qQ1IqSkHzn/IJKBmYGRgYmIMkApEEQAuCiAA==)
+  last-modified (1582071487847)
+}

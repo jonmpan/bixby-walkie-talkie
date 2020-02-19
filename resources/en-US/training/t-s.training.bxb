@@ -1,0 +1,10 @@
+train (t-se5jyagdgc2qfos2g3y901srz) {
+  utterance ("[g:WalkieTalkie] (herp derp)[v:TextToCopy], (copy)[v:Confirmation:copy]")
+  plan (Y2BhkCvISaxML8ovzUvRK0/Myc5MLQGTev6lJQWlJQwquOTDwVQImMStyjk/Ly2zKDexJDM/j0EJl6qQ1IqSkHzn/IJKBmYGRgYmIMkApEEQAuCiAA==)
+  last-modified (1582071498817)
+}
+train (t-si31fwpmtz8t81l279wmze3h3) {
+  utterance ("[g:WalkieTalkie] (copy that)[v:TextToCopy] (over and out)[v:Confirmation:over]")
+  plan (Y2BhkCvISaxML8ovzUvRK0/Myc5MLQGTev6lJQWlJQwquOTDwVQImMStyjk/Ly2zKDexJDM/j0EJl6qQ1IqSkHzn/IJKBmYGRgYmIMkApEEQAuCiAA==)
+  last-modified (1582071503232)
+}

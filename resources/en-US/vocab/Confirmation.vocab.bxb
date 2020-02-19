@@ -1,0 +1,6 @@
+vocab (Confirmation){
+  "roger" {"roger" "roger that"}
+  "copy" {"copy" "copy that"}
+  "over" {"over" "over and out"}
+  "10-4" {"10-4" "ten four" "ten for" "ten 4" "10 four" "10 for" "10 4"}
+}

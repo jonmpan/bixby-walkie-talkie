@@ -1,0 +1,5 @@
+train (t-3i54pacyjyfzapw91z3flj3wh) {
+  utterance ("[g:WalkieTalkie] (test)[v:TextToCopy] (roger that)[v:Confirmation:roger]")
+  plan (Y2BhkCvISaxML8ovzUvRK0/Myc5MLQGTev6lJQWlJQwquOTDwVQImMStyjk/Ly2zKDexJDM/j0EJl6qQ1IqSkHzn/IJKBmYGRgYmIMkApEEQAuCiAA==)
+  last-modified (1582071458521)
+}
