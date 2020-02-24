@@ -12,8 +12,7 @@ https://youtu.be/cyhiQB1DDwU
 
 The `master` branch of this repository matches the code at the end of the video. In this tutorial, you will build a Walkie Talkie capsule that demonstrates dialog, expression language, match patterns, and dialog macros.
 
-![Screenshot-market](/assets/readme/walkie-talkie-1.png)
-![Screenshot-statue](/assets/readme/walkie-talkie-2.png)
+![Screenshot-market](/assets/readme/walkie-talkie-1.png) ![Screenshot-statue](/assets/readme/walkie-talkie-2.png)
 
 ---
 
