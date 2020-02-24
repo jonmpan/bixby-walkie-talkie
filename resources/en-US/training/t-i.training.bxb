@@ -1,5 +1,5 @@
-train (t-iuy0bzmf8bgwf5q7suahdqxz2) {
-  utterance ("[g:WalkieTalkie] (copy)[v:TextToCopy] (copy that)[v:Confirmation:copy]")
-  plan (Y2BhkCvISaxML8ovzUvRK0/Myc5MLQGTev6lJQWlJQwquOTDwVQImMStyjk/Ly2zKDexJDM/j0EJl6qQ1IqSkHzn/IJKBmYGRgYmIMkApEEQAuCiAA==)
-  last-modified (1582071485463)
+train (t-i7vxoon0c7vhwd2hzbgai40c0) {
+  utterance ("[g:WalkieTalkie] (over and out)[v:Confirmation:'over and out']")
+  plan (Y2BmkCvISaxML8ovzUvRK0/Myc5MLQGTev6lJQWlJQwquOTDwVQImMStyjk/Ly2zKDexJDM/j4GJgRGIGYAkIwMIQPkA)
+  last-modified (1582242662489)
 }

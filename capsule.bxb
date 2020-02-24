@@ -1,4 +1,7 @@
 capsule {
+  store-sections{
+    section (GamesAndFun)
+  }
   id (playground.walkietalkie)
   version (0.1.0)
   format (3)
@@ -8,9 +11,6 @@ capsule {
   runtime-version (3)
   store-countries {
     all
-  }
-  store-sections{
-    section (GamesAndFun)
   }
   device-models {
     all

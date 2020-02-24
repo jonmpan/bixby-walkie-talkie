@@ -1,0 +1,5 @@
+// progress dialogs are good for certain actions, namely type(Search). This adds some custom text when Bixby is loading for awhile
+dialog (Progress) {
+  match: Output(output)
+  template ("Moving through airwaves... over")
+}

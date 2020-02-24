@@ -1,3 +1,3 @@
-module.exports.function = function walkieTalkie(textToCopy, confirmation) {
-  return textToCopy;
+module.exports.function = function walkieTalkie (input, confirmation) {
+  return input;
 }

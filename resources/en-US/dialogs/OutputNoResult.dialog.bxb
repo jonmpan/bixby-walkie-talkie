@@ -1,0 +1,6 @@
+dialog (NoResult) {
+  match: Output(output){
+    from-output:WalkieTalkie(action)
+  }
+  template ("#{macro('OUTPUT', output, action.confirmation)}")
+}

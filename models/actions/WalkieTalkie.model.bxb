@@ -1,10 +1,10 @@
 action (WalkieTalkie) {
   type (Search)
-  description (__DESCRIPTION__)
+  description (Takes user's input and potential confirmation)
   collect {
-    input (textToCopy) {
-      type (TextToCopy)
-      min (Required) max (One)
+    input (input) {
+      type (Input)
+      min (Optional) max (One)
     }
     input (confirmation) {
       type (Confirmation)

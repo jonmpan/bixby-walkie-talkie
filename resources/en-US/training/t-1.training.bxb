@@ -1,0 +1,5 @@
+train (t-18bvyfziddjc13gshve39wxjo) {
+  utterance ("[g:WalkieTalkie] (hello world)[v:Input] (roger that)[v:Confirmation:roger]")
+  plan (Y2BhkCvISaxML8ovzUvRK0/Myc5MLQGTev6lJQWlJQwquOTDwVQImMStyjk/Ly2zKDexJDM/j0EWlyrPPJBVzAyMDExAkgFIgyAEwEUB)
+  last-modified (1582241852591)
+}

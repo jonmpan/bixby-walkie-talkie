@@ -7,6 +7,4 @@ capsule-info {
   search-keywords{
     keyword (Walkie Talkie)
   }
-  // Create and set a path for your icon asset
-  // icon-asset (images/icons/example.png)
 }

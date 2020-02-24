@@ -1,0 +1,5 @@
+train (t-upt4wojqmxfdmsoxs29n8y3ae) {
+  utterance ("[g:WalkieTalkie] (hello)[v:Input] (over)[v:Confirmation:over]")
+  plan (Y2BhkCvISaxML8ovzUvRK0/Myc5MLQGTev6lJQWlJQwquOTDwVQImMStyjk/Ly2zKDexJDM/j0EWlyrPPJBVzAyMDExAkgFIgyAEwEUB)
+  last-modified (1582241799438)
+}

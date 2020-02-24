@@ -1,4 +1,3 @@
 text (Output) {
-  description (__DESCRIPTION__)
-  features{transient}
+  description (The output from the action WalkieTalkie. It's just the same as the input)
 }

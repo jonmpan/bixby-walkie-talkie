@@ -1,10 +1,26 @@
+// here we use a dialog macro and pass in a couple params to generate the dialog for this capsule
 dialog (Result) {
 	match: Output(output){
 		from-output:WalkieTalkie(action)
 	}
-	// first part of example - covers [] and value and title. change value to title.
-	// template("#{title(output)}[, #{value(action.confirmation)}]")
-
-  // 2nd part - show how to you use a dialog macro and pass in multiple things
-	template("#{macro('OUTPUT', output, action.confirmation)}")
+	
+	// first part of example - covers [] and value and title.
+	// template("You said #{title(output)}[. #{title(action.confirmation)}]")
+	
+	// 2nd part - show how to you use a dialog macro and pass in multiple things
+	template ("#{macro('OUTPUT', output, action.confirmation)}")
+	
+	// The example below has identical functionality to the above but with alternative syntax. Above syntax allows you to add text before and after. Above syntax is IMO stronger and shorter. You may see the below syntax in some templates and other example capsules
+	// if (size(output) == 1){
+	// 	template-macro (OUTPUT){
+	// 		param (output){
+	// 			expression (output)
+	// 		}
+	// 		param (confirmation){
+	// 			expression (action.confirmation)
+	// 		}
+	// 	}
+	// } else {
+	// 	template ("This is impossible")
+	// }
 }

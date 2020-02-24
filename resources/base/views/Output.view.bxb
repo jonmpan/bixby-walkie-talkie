@@ -1,7 +1,17 @@
-// this view is here to render a blank view so the text doesn't repeat
-
+// this view is here to render a blank view so the text doesn't repeat. without the render block, nothing gets rendered.
 result-view{
-	match:Output(output){
-		from-output:WalkieTalkie(action)
-	}
+  match:Output(output)
+
+	// mention this as an option instead of noResult and output fragmentation.
+	// message{template("#{macro('OUTPUT', output, action.confirmation)}")}
+	
+	// The line below, event, does nothing different this capsule. However, it is useful if you have a lot of match patterns for different dialogs but the same result view for the output.
+	// message{template("#{event(output, 'Result')}")}
+
+  render{
+    layout{
+      section{
+      }
+    }
+  }
 }

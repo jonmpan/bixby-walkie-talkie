@@ -1,8 +1,11 @@
 enum (Confirmation) {
-  description (__DESCRIPTION__)
-  symbol (roger)
-  symbol (copy)
+  description (Ending a statement while using a walkie talkie.)
+  symbol (out)
   symbol (over)
+  symbol (over and out)
   symbol (10-4)
-  features{transient}
+  symbol (copy)
+  symbol (wilco)
+  symbol (roger)
+  features {transient}
 }
