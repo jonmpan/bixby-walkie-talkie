@@ -19,6 +19,10 @@ The `master` branch of this repository matches the code at the end of the video.
 
 ## Additional Resources
 
+### Video Guides
+
+- [Bixby Developers YouTube](https://www.youtube.com/bixbydevelopers)
+
 ### Your Source for Everything Bixby
 
 - [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
@@ -32,11 +36,6 @@ The `master` branch of this repository matches the code at the end of the video.
 - [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule
 - [Design Guides](https://bixbydevelopers.com/dev/docs/dev-guide/design-guides) - Best practices for designing your capsules
 - [Developer Guides](https://bixbydevelopers.com/dev/docs/dev-guide/developers) - Guides that take you from design and modeling all the way through deployment of your capsules
-
-### Video Guides
-
-- [Introduction to Bixby](https://youtu.be/DFvpK4PosvI) - Bixby and the New Exponential Frontier of Intelligent Assistants
-- [Bixby Fundamentals](https://bixby.developer.samsung.com/newsroom/en-us/22/01/2019/Teaching-Bixby-Fundamentals-What-You-Need-to-Know) - Bixby Fundamentals: What You Need to Know
 
 ### Need Support?
 
